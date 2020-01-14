@@ -6,3 +6,19 @@ Para ver tus archivos estamos trabajando
 
 gid add -all para añadir todo
  para añadir filds
+
+ git commit
+ para inicializar
+
+ git config --global user.name "David Vargas"    
+ git config --global user.email "gvargasd@ucenfotec.ac.cr"
+
+ GIT commit
+
+ TECLAMOS i Y LUEGO ESCRIBIMOS EL MENSAGE LUEGA TECLA ESC
+
+ LUEGO TECLEAMOS wq
+
+git checkout para volver el codigo de la pagina principal.
+  
+  git diff
