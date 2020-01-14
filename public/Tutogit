@@ -22,3 +22,6 @@ gid add -all para añadir todo
 git checkout para volver el codigo de la pagina principal.
   
   git diff
+
+
+  git merge  rama para unir
