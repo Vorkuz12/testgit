@@ -1,0 +1,38 @@
+
+#login .form div{
+    text-align: center;
+    margin-top: 50px;
+}
+#login .form label{
+    width: 150px;
+    display: inline-block;
+    margin-right: 20px;
+    padding-left: 20px;
+    margin-top:50px; 
+
+}
+#login .form input{
+    display:inline-block;
+    height: 25px;
+    width: 228px;
+    
+}
+#login .form  
+button{
+width: 205px;
+height: 60px;
+padding: 10px;
+font-size: 16px;
+text-decoration: none;
+font-weight: 600;
+font-size: 20px;
+color: #ffffff;
+background-color: green;
+border-radius: 6px;
+border: 2px solid black;
+margin: 0 auto;
+margin-top: 90px;
+margin-bottom: 90px;
+margin-left:600px;
+}
+

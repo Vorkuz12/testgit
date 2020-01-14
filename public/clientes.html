@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Clientes</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Clientes">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/clientes.css">
+    
+
+
+</head>
+
+
+<body>
+
+    <header class=header_principal>
+        <h1>Hoteles</h1>
+        <img src="imgs/fachada-de-hotel.jpg" alt="Hotel">
+        <nav id =nav>
+            <a href="http://localhost:3000/public/hoteles_cliente.html">Hoteles</a>
+            <a href="http://localhost:3000/public/hoteles.html">Hoteles</a>
+            <a href="http://localhost:3000/public/Clientes.html">Clientes</a>
+            <a href="" id='btnCerrar'>Cierre Sesión</a>
+        </nav>
+    </header>
+    <section id="title">
+        <h1><span class="icon-user"></span> Clientes </h1>
+    </section>
+    <section id="sucursal">
+        <form class=form>
+            <div>
+                <label>Filtrar</label>
+                <input type="text" class="inputtext" name="name" id="inputtext">
+            </div>
+
+            <div>
+                <button type="button" onclick="location.href='http://localhost:3000/public/registro_usuarios.html'">Agregar</button>
+            </div>
+
+        </form>
+
+    </section>
+
+    <section id="tablon">
+
+        <table class="tabla" id="tbl_clientes">
+            <thead>
+                <tr>
+                    <th>Cedula</th>
+                    <th>Nombre</th>
+                    <th>Fecha</th>
+                    <th>Correo</th>
+                    <th>Foto</th>
+                    <th>Acciones</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+
+            </tbody>
+        </table>
+        <script src="js/inicio_sesion/control_nav.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+        <script src="js/usuarios/servicio_usuarios.js"></script>
+        <script src="js/usuarios/controlador_listar_usuarios.js"></script>
+
+</html>

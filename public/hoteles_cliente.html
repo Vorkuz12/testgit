@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hoteles</title>
+    <meta name="description" content="Registro">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/surcusales.css">
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+
+</head>
+
+<body>
+
+    <header class=header_principal>
+        <h1>Hoteles</h1>
+        <img src="imgs/fachada-de-hotel.jpg" alt="Hotel">
+        <nav id ="nav">
+                <a href="http://localhost:3000/public/hoteles_cliente.html">Hoteles</a>
+                <a href="http://localhost:3000/public/hoteles.html">Hoteles</a>
+                <a href="http://localhost:3000/public/Clientes.html">Clientes</a>
+                <a href="" id='btnCerrar'>Cierre Sesión</a>
+        </nav>
+    </header>
+    <section id="title">
+        <h1><i class="fas fa-map-marker"></i> Hoteles</h1>
+    </section>
+    <section id="sucursal">
+        <form class=form>
+            <div>
+                <label>Filtrar</label>
+                <input type="text" class="inputtext" name="name" id="inputtext">
+            </div>
+
+
+        </form>
+
+    </section>
+    <section id="tablon">
+
+        <table class="tabla" id="tbl_sucursales">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Promedio</th>
+                    <th>Provincia</th>
+                    <th>Cantones</th>
+                    <th>Distrito</th>
+                    <th>Dirreción</th>
+                    <th>Mapa</th>
+                    <th>Califica</th>
+
+
+
+
+
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </section>
+    <script src="js/inicio_sesion/control_nav.js"></script>
+    <script src="js/inicio_sesion/controlador_permisos_pagina.js"></script>
+    
+  
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/sucursales/servicio_sucursales.js"></script>
+    <script src="js/sucursales/servicio_lugares.js"></script>
+    <script src="js/sucursales/listar_sucursales_actividas.js"></script>
+
+
+</body>
+
+</html>

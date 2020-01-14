@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Registro en línea</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Página para registrarse.">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+
+
+</head>
+
+<body>
+    <header class=header_principal>
+        <h1>Hoteles</h1>
+        <img src="imgs/fachada-de-hotel.jpg" alt="Hotel">
+        <nav id="nav">
+            <button onclick="location.href='http://localhost:3000/public/registro_linea.html'"><i class="fas fa-user-alt"></i>Regístrese
+                Gratis</button>
+            <a href="http://localhost:3000/public/inicio_sesion.html"> Inicia Sesión</a>
+            <a href=""></a>
+            <a href=""> </a>
+        </nav>
+    </header>
+    <section id="title">
+        <h1></i>Registro en línea<i class="fas fa-lock-open"></i></h1>
+    </section>
+
+
+    <section id=mover>
+        <div class="contenedor_padre">
+
+            <div class="col_izq">
+                <form class="formulario">
+                    <div>
+                        
+                        
+                        <label for="txtIdentificacion">Identificación</label>
+                        <input type="text" id="txtIdentificacion">
+                    </div>
+                    <div>
+                        <label for="txtPrimerNom">Primer nombre</label>
+                        <input type="text" id="txtPrimerNom">
+                    </div>
+
+                    <div>
+                        <label for="txtCorreo">Correo</label>
+                        <input type="email" id="txtCorreo" placeholder="usario@....com">
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="col_der">
+                <form class="formulario">
+                    <div>
+                        <label for="FechaNacimiento">Fecha de nacimiento</label>
+                        <input type="date" id="FechaNacimiento">
+                    </div>
+                    <div>
+                        <label for="edad">Edad</label>
+                        <input  disabled type="number" id="edad" min="18" max="120" >
+                 
+
+                    </div>
+
+
+                    <div class="divPassword">
+                        <label for="txtPassword">Contraseña</label>
+                        <input type="password" id="txtPassword">
+                    </div>
+                    <div>
+                        <label for="txtConfPassword">Confirmación</label>
+                        <input type="password" id="txtConfPassword">
+                    </div>
+                </form>
+            </div>
+            <div class="Foto">
+                <form class="formulario">
+                    <div class="subirFoto" id="imagen">
+                        <button type="button" id="imagen">Subir foto</button>
+                        <figure id="foto">
+                            <img src="imgs/Profile-Placeholder.jpg" alt="Foto de perfil" id="imagen_preview">
+                          
+                        </figure>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <button type="button" id="btnButton">Registrar</button>
+    </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/servicio_imagen.js"></script>
+    <script src="js/usuarios/servicio_usuarios.js"></script>
+    <script src="js/usuarios/registro_linea.js"></script>
+    <script src='https://cdn.jsdelivr.net/jquery.cloudinary/1.0.18/jquery.cloudinary.js' type='text/javascript'></script>
+    <script src="https://widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+   
+
+</body>
+
+</html>

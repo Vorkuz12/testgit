@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/hoteles.css">
+    <title>Registrar Hoteles</title>
+</head>
+
+<body>
+    <header class=header_principal>
+        <h1>Hoteles</h1>
+        <img src="imgs/fachada-de-hotel.jpg" alt="Hotel">
+        <nav id ="nav">
+                <a href="http://localhost:3000/public/hoteles_cliente.html">Hoteles</a>
+                <a href="http://localhost:3000/public/hoteles.html">Hoteles</a>
+                <a href="http://localhost:3000/public/Clientes.html">Clientes</a>
+                <a href="" id='btnCerrar'>Cierre Sesión</a>
+        </nav>
+    </header>
+    <section id="title">
+        <h1></i>Registro Hotel<i class="fas fa-lock-open"></i></h1>
+    </section>
+    <section id="map"></section>
+    <section id="contactenos">
+
+        
+            
+        
+
+        <div>
+            <input type="hidden" id="longitud" / disabled>
+            <input type="hidden" id="latitud" / disabled>
+        </div>
+
+        <div>
+            <label for="txtNombre">Nombre</label>
+            <input type="text" id="txtNombre" placeholder="Las flores">
+        </div>
+
+        <div>
+         
+            <textarea name="direccion" id="txtMensaje" cols="30" rows="10" placeholder="Dirección del Hotel" minlength="0"
+                maxlength="70"></textarea>
+                <label for="txtdireccion"></label>
+        </div>
+        <div>
+            <label for="">Provincia</label>
+            <select name="" id="sltProvincias">
+                <option value="">--Seleccione una provincia--</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Cantón</label>
+            <select name="" id="sltCantones">
+                <option value="">--Seleccione un cantón--</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Distrito</label>
+            <select name="" id="sltDistritos">
+                <option value="">--Seleccione un distrito--</option>
+            </select>
+        </div>
+    </section>
+        <section id="botn">
+                <button type="button" id="regis" class="bot">Regístrar</button>
+        
+            </section>
+            <script src="js/inicio_sesion/control_nav.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        
+        <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDvafQYC3-Vkqc0y8zyOyesUA8Zy0aZ_A&callback=initMap"
+        type="text/javascript"></script>
+        <script src="js/sucursales/map.js"></script>
+        <script src="js/sucursales/servicio_lugares.js"></script>
+        <script src="js/sucursales/servicio_sucursales.js"></script>
+        <script src="js/sucursales/registro_sucursales.js"></script>
+        
+</body>
+
+</html>

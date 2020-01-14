@@ -1,0 +1,46 @@
+#map{
+    height: 270px;
+    width: 350px;
+    margin-right: 300px;
+   float: right;
+   margin-bottom: 10px;
+   margin-top: 60px;
+  
+}
+#contactenos div{
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+#bot{
+    margin-top: 200px;
+}
+#contactenos input{
+    width:162px;
+}
+#sltProvincias{
+    width:160px;
+}
+#sltCantones , #sltDistritos{
+    width: 175px;
+}
+#body{
+   color: #f39c12
+}
+#act, #regis{
+
+margin-left:630px;
+            display: inline-block;
+            width: 125px;
+            height: 60px;
+           
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 20px;
+            color: #ffffff;
+            background-color: green;
+            border-radius: 6px;
+            border: 2px solid black;
+           margin-top: 20px;
+           margin-bottom: 10px;
+}

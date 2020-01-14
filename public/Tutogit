@@ -1,0 +1,8 @@
+git init 
+Para inicializar el proyecto
+
+git status
+Para ver tus archivos estamos trabajando
+
+gid add -all para añadir todo
+ para añadir filds

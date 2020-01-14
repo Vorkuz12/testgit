@@ -1,0 +1,43 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width:200px;
+    height: 200px
+}
+#sucursal .form{
+    margin-top:50px;
+}
+#sucursal .form div{
+    margin-left:60px;
+    height: 30px;
+    width:400px;
+    display:inline-block
+
+}
+#sucursal .form label{
+    font-size:25px;
+    color:black;
+}
+#sucursal .form input{
+    width: 230px;
+    height: 25px;
+    margin-right: 10px;
+display:inline-block;
+
+}
+#sucursal .form button{
+    display: inline-block;
+    width: 125px;
+    height: 60px;
+   
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: green;
+    border-radius: 6px;
+    border: 2px solid black;
+    margin-left:500px;
+}

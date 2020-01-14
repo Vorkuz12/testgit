@@ -1,0 +1,21 @@
+#map{
+    height: 500px;
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+    #regresar{
+        border: none;
+        height: 30px;
+        color: white;
+        font-weight: bold;
+        background: green;
+        width: 300px;
+        cursor: pointer;
+       margin: 0 auto;
+    }
+    #boton{
+        width: 300px;
+        margin: 0 auto;
+        padding: 30px;
+    }
